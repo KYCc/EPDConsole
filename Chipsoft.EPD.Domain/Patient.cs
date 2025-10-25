@@ -1,6 +1,6 @@
 ﻿namespace Chipsoft.EPD.Domain
 {
-    public class Appointment
+    public class Patient
     {
         
     }

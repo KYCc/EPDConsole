@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chipsoft.Assignments.EPDConsole", "Chipsoft.Assignments.EPDConsole\Chipsoft.Assignments.EPDConsole.csproj", "{C3E36DFE-5F45-40C4-BCF8-CEACF7987B54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chipsoft.EPD.UI-CA", "Chipsoft.EPD.UI-CA\Chipsoft.EPD.UI-CA.csproj", "{C3E36DFE-5F45-40C4-BCF8-CEACF7987B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chipsoft.EPD.Domain", "Chipsoft.EPD.Domain\Chipsoft.EPD.Domain.csproj", "{7834FDC6-2EB2-410B-A4BE-08EC0A0DCAE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chipsoft.EPD.DAL", "Chipsoft.EPD.DAL\Chipsoft.EPD.DAL.csproj", "{14C86D55-9EF6-4757-B811-02A2DB0EB231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chipsoft.EPD.BL", "Chipsoft.EPD.BL\Chipsoft.EPD.BL.csproj", "{BDBDA960-9F0B-4E4A-B184-399BAF9FAFD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{C3E36DFE-5F45-40C4-BCF8-CEACF7987B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3E36DFE-5F45-40C4-BCF8-CEACF7987B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3E36DFE-5F45-40C4-BCF8-CEACF7987B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7834FDC6-2EB2-410B-A4BE-08EC0A0DCAE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7834FDC6-2EB2-410B-A4BE-08EC0A0DCAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7834FDC6-2EB2-410B-A4BE-08EC0A0DCAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7834FDC6-2EB2-410B-A4BE-08EC0A0DCAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14C86D55-9EF6-4757-B811-02A2DB0EB231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C86D55-9EF6-4757-B811-02A2DB0EB231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C86D55-9EF6-4757-B811-02A2DB0EB231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C86D55-9EF6-4757-B811-02A2DB0EB231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDBDA960-9F0B-4E4A-B184-399BAF9FAFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDBDA960-9F0B-4E4A-B184-399BAF9FAFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDBDA960-9F0B-4E4A-B184-399BAF9FAFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDBDA960-9F0B-4E4A-B184-399BAF9FAFD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
