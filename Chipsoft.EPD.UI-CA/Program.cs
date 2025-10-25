@@ -1,4 +1,4 @@
-﻿namespace Chipsoft.Assignments.EPDConsole
+﻿namespace Chipsoft.EPD.UI.CA
 {
     public class Program
     {
@@ -83,9 +83,9 @@
                     case 7:
                         return false;
                     case 8:
-                        EPDDbContext dbContext = new EPDDbContext();
+                        /*EPDDbContext dbContext = new EPDDbContext();
                         dbContext.Database.EnsureDeleted();
-                        dbContext.Database.EnsureCreated();
+                        dbContext.Database.EnsureCreated();*/
                         return true;
                     default:
                         return true;
