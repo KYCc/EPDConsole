@@ -5,7 +5,7 @@ namespace Chipsoft.EPD.DAL.interfaces;
 
 public class AppointmentRepository : IAppointmentRepository
 {
-    private EPDDbContext _epdDbContext;
+    private readonly EPDDbContext _epdDbContext;
 
     public AppointmentRepository(EPDDbContext epdDbContext)
     {
