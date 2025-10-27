@@ -4,6 +4,8 @@ namespace Chipsoft.EPD.BL.interfaces;
 
 public interface IPatientService
 {
+    public Patient? GetPatientById(int patientId);
+    public IEnumerable<Patient> GetAllPatients();
     public Patient AddPatient(
         string name, 
         string email, 

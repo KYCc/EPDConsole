@@ -12,6 +12,16 @@ public class PatientService : IPatientService
     {
         _patientRepository = patientRepository;
     }
+
+    public Patient? GetPatientById(int patientId)
+    {
+        return _patientRepository.GetById(patientId);
+    }
+
+    public IEnumerable<Patient> GetAllPatients()
+    {
+        return _patientRepository.GetAll();
+    }
     
     public Patient AddPatient(string name, string email, string phoneNumber, string country, string city, string postalCode,
         string street, int houseNumber)

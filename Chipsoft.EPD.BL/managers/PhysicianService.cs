@@ -12,6 +12,16 @@ public class PhysicianService : IPhysicianService
     {
         _physicianRepository = physicianRepository;
     }
+
+    public Physician? GetPhysicianById(int physicianId)
+    {
+        return _physicianRepository.GetById(physicianId);
+    }
+
+    public IEnumerable<Physician> GetAllPhysicians()
+    {
+        return _physicianRepository.GetAll();
+    }
     
     public Physician AddPhysician(string name, string email, string phoneNumber)
     {
