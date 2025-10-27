@@ -41,7 +41,7 @@ public class AppointmentService : IAppointmentService
         if (patient == null) throw new ArgumentException($"No patient found with Id {patientId}");
         
         var physician = _physicianRepository.GetById(physicianId);
-        if (physician == null) throw new ArgumentException($"No patient found with Id {physicianId}");
+        if (physician == null) throw new ArgumentException($"No physician found with Id {physicianId}");
         
         var appointment = new Appointment
         {

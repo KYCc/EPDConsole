@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chipsoft.EPD.DAL", "Chipsof
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chipsoft.EPD.BL", "Chipsoft.EPD.BL\Chipsoft.EPD.BL.csproj", "{BDBDA960-9F0B-4E4A-B184-399BAF9FAFD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{A6909A3F-3B18-4A61-8466-202540458331}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BDBDA960-9F0B-4E4A-B184-399BAF9FAFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDBDA960-9F0B-4E4A-B184-399BAF9FAFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDBDA960-9F0B-4E4A-B184-399BAF9FAFD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6909A3F-3B18-4A61-8466-202540458331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6909A3F-3B18-4A61-8466-202540458331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6909A3F-3B18-4A61-8466-202540458331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6909A3F-3B18-4A61-8466-202540458331}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
